@@ -114,32 +114,33 @@
 }
 
 #entries {
-    padding: 0 !important;
+    padding: 0px !important;
     border-top: 1px solid #C2CFF1 !important;
+    border-bottom: 0px #CCC !important;
 }
 #entries.list .entry .collapsed {
     background: none repeat scroll 0 0 #FFFFFF !important;
-    border: 2px solid #FFFFFF !important;
+    border: 0px solid #FFFFFF !important;
     cursor: pointer !important;
     margin: 0 !important;
     overflow: hidden !important;
-    padding: 0 !important;
+    padding: 0px !important;
     position: relative !important;
     width: auto !important;
 }
 
 #entries.list .read .collapsed {
     background: none repeat scroll 0 0 #F3F5FC !important;
-    border: 2px solid #F3F5FC !important;
+    border: 0px solid #F3F5FC !important;
 }
 #entries.list .collapsed .entry-icons {
-    top: 1px !important;
+    top: 20px !important;
 }
 #entries.list .collapsed .entry-secondary,#entries.list .collapsed .entry-main .entry-source-title {
     top: 1px !important;
 }
 #entries.list .collapsed .entry-main .entry-original {
-    top: 6px !important;
+    top: 20px !important;
 }
 
 #current-entry .entry-container .entry-title a, #current-entry .entry-container a.entry-source-title, #current-entry .entry-container .entry-body a, #current-entry .entry-container a.entry-post-author-name {
@@ -149,7 +150,7 @@
     border-color: #6688EE !important;
 }
 #entries.list .expanded .collapsed {
-    border-bottom-width: 0 !important;
+    border-bottom-width: 1 !important;
 }
 #entries.list #current-entry.expanded {
     border-color: #6688EE;
@@ -171,6 +172,9 @@
 }
 .entry .entry-actions a, .entry .entry-actions .link {
     color: #2244BB !important;
+}
+#lhn-friends{
+display: block !important;
 }
 
 }
